@@ -1,3 +1,10 @@
+$('.header_menu').origamidMenu({
+	breakpoint: 767,
+	top: 100,
+	background: "#FEC63E",
+	color: "black"
+});
+
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 500,            // Integer: Speed of the transition, in milliseconds
