@@ -1,0 +1,115 @@
+/* Cores */
+.primaria-1 {
+	background: #FEC63E;
+}
+.primaria-2 {
+	background: #000;
+}
+.primaria-3 {
+	background: #FFF;
+}
+.secundaria-1 {
+	background: #1D1D1D;
+}
+/* Tipografia */
+.titulo-1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1em;
+	color: #000;
+}
+.titulo-2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #000;
+}
+.titulo-3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 25px;
+	color: #000;
+}
+.corpo-1 p {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	color: #000;
+}
+.corpo-2 p {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 25px;
+	color: #000;
+}
+/* Botões e Links */
+.btn-primario a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .1em;
+	display: inline-block;
+	background: transparent;
+	color: #FEC63E;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border: 3px solid;
+	transition: all .5s ease;
+}
+.btn-primario a:hover {
+	color: #000;
+}
+/* Formulário */
+label {
+	display: block;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+	color: #000;
+}
+input, textarea {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 14px;
+	padding: 7px 10px;
+	background: none;
+	border: 3px solid #FEC63E;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+}
+textarea {
+	min-height: 160px;
+}
+input:focus, input:hover, textarea:focus, textarea:hover {
+	outline: #000;
+	border-color: #000;
+}
+button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .1em;
+	display: inline-block;
+	background: transparent;
+	color: #FEC63E;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border: 3px solid;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+button:hover {
+	color: #000;
+}
