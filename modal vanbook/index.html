@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- js -->
+	<script src="js/libs/jquery-3.0.0.min.js" defer></script>
+	<script src="js/main.js" defer></script>
+	<title>Vanbook</title>
+</head>
+<body>
+	<header class="container menu">
+		<div class="grid-5">
+			<a href="/">
+				<img src="img/vanbook.png" alt="Logo Vanbook">
+			</a>
+		</div>
+
+		<nav class="grid-11">
+			<ul>
+				<li><a href="#">Planos</a></li>
+				<li><a href="#">Livros</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="planos">
+		<h1>Escolha o seu plano</h1>
+
+		<div class="container">
+			<div class="planos-item grid-5">
+				<div class="topo-card">
+					<h2>Silver</h2>
+					<span><sup>R$</sup> 29</span>
+				</div>
+	
+				<ul>
+					<li>Acesso Mensal</li>
+					<li>+ 160 livros</li>
+					<li>Resumo dos livros</li>
+				</ul>
+	
+				<a href="#modal" class="btn">Inscreva-se</a>
+			</div>
+	
+			<div class="planos-item grid-5">
+				<div class="topo-card">
+					<h2>Gold</h2>
+					<span><sup>R$</sup> 59</span>
+				</div>
+	
+				<p class="recomendado">Recomendado</p>
+	
+				<ul>
+					<li>Acesso Mensal</li>
+					<li>+ 160 livros</li>
+					<li>Resumo dos livros</li>
+					<li>Desconta em livrarias</li>
+					<li>Download de livros</li>
+				</ul>
+	
+				<a href="#modal" class="btn">Inscreva-se</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="modal">
+		<div class="modal-wrapper">
+			<h1>Inscreva-se</h1>
+			<form>
+				<label for="email">E-mail</label>
+				<input type="text" name="email">
+				<label for="senha">Senha</label>
+				<input type="password" name="senha">
+				<button type="button" class="btn">Inscreva-se</button>
+			</form>
+		</div>
+	</section>
+</body>
+</html>
